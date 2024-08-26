@@ -8,8 +8,8 @@ import datetime
 from openai import AzureOpenAI
 import dateutil.parser
 from azure.identity import DefaultAzureCredential
-OPENAI_API_ENDPOINT = "https://openai-techdiv.openai.azure.com"
-OPENAI_API_VERSION = "2024-02-15-preview"
+OPENAI_API_ENDPOINT = "your endpoint"
+OPENAI_API_VERSION = "your API version"
 OPENAI_DEPLOYMENT_NAME = "gpt-4o"  
 API_KEY =
 def read_latest_unread_email():
